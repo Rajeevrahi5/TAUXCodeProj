@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		FE7EB7769BF4A342EB71839C84C3B9C9 /* EyesXCUI */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A34E384CFB11942C1A3C8EBB55A5689C /* Build configuration list for PBXAggregateTarget "EyesXCUI" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = EyesXCUI;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8AC25ABC44F5EA81E1C7F949098663EF /* Pods-TAU-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3C7F03FF56416A1D9FA326C0FE44F2 /* Pods-TAU-dummy.m */; };
+		E290E894473D81578C93A39E46CE9879 /* Pods-TAU-TAUUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 733E2AF75E0BBC80C314DE8C37E8ED84 /* Pods-TAU-TAUUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55D7004C148CBEF55648EAC999EA10A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7EB7769BF4A342EB71839C84C3B9C9;
+			remoteInfo = EyesXCUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058D73F5839EFBEE46D9E0A16C4FD134 /* EyesRunner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EyesRunner.h; path = EyesXCUI/EyesXCUI.framework/Headers/EyesRunner.h; sourceTree = "<group>"; };
+		06F61271468EBD868FB23B3100C03477 /* Configuration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Configuration.h; path = EyesXCUI/EyesXCUI.framework/Headers/Configuration.h; sourceTree = "<group>"; };
+		0B2FEE5D597287821E271FF669898CAF /* TestResults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestResults.h; path = EyesXCUI/EyesXCUI.framework/Headers/TestResults.h; sourceTree = "<group>"; };
+		0FA43E5549F43DFB2536D71FC12EEE16 /* TestAccessibilityStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestAccessibilityStatus.h; path = EyesXCUI/EyesXCUI.framework/Headers/TestAccessibilityStatus.h; sourceTree = "<group>"; };
+		102DDDB900F5B7DBB986ED5B802DDEDF /* EyesXCUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EyesXCUI.framework; path = EyesXCUI/EyesXCUI.framework; sourceTree = "<group>"; };
+		178581D60C4D610AF505867A92F8805F /* ApiUrls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ApiUrls.h; path = EyesXCUI/EyesXCUI.framework/Headers/ApiUrls.h; sourceTree = "<group>"; };
+		1798CBE39AB71477F48CDEDBD76B577F /* Pods-TAU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAU.release.xcconfig"; sourceTree = "<group>"; };
+		195D42F713841AC671982A63D8785529 /* MatchLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatchLevel.h; path = EyesXCUI/EyesXCUI.framework/Headers/MatchLevel.h; sourceTree = "<group>"; };
+		1A61CFF210EF7010587B4E7A051F5D75 /* Pods-TAU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAU.debug.xcconfig"; sourceTree = "<group>"; };
+		29844A128CAA6382251FA251C2970B86 /* Pods-TAU-TAUUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TAU-TAUUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2FB2FF2C3178C13F64FA1C3D36DD7EEF /* AbstractProxySettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractProxySettings.h; path = EyesXCUI/EyesXCUI.framework/Headers/AbstractProxySettings.h; sourceTree = "<group>"; };
+		3A18B45F711D31BA939FC99B5CF17F56 /* AccessibilityRegionType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AccessibilityRegionType.h; path = EyesXCUI/EyesXCUI.framework/Headers/AccessibilityRegionType.h; sourceTree = "<group>"; };
+		3EA0F9D5F03858C7429AF27A236F2CFE /* Pods-TAU-TAUUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TAU-TAUUITests-frameworks.sh"; sourceTree = "<group>"; };
+		58FFB3DA94D62E1CD7260182C3177D2E /* Eyes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Eyes.h; path = EyesXCUI/EyesXCUI.framework/Headers/Eyes.h; sourceTree = "<group>"; };
+		5B04C68E810342B8344EB64B6A6DD007 /* TestResultsSummary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestResultsSummary.h; path = EyesXCUI/EyesXCUI.framework/Headers/TestResultsSummary.h; sourceTree = "<group>"; };
+		5D4903DB5690D24F048572605C385628 /* SessionUrls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SessionUrls.h; path = EyesXCUI/EyesXCUI.framework/Headers/SessionUrls.h; sourceTree = "<group>"; };
+		6130CC04ADFC234B1274530AB91C9F62 /* MatchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatchResult.h; path = EyesXCUI/EyesXCUI.framework/Headers/MatchResult.h; sourceTree = "<group>"; };
+		66A6C653EE37304C445B3582AE7F793C /* Pods-TAU-TAUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAU-TAUUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67C005C2EC46BD0D91EDF664CEBD4A1B /* ImageMatchSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageMatchSettings.h; path = EyesXCUI/EyesXCUI.framework/Headers/ImageMatchSettings.h; sourceTree = "<group>"; };
+		6AED779927E4066B284204D0DFF3F9AB /* DefaultMatchSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DefaultMatchSettings.h; path = EyesXCUI/EyesXCUI.framework/Headers/DefaultMatchSettings.h; sourceTree = "<group>"; };
+		733E2AF75E0BBC80C314DE8C37E8ED84 /* Pods-TAU-TAUUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TAU-TAUUITests-dummy.m"; sourceTree = "<group>"; };
+		83A96C23B94B0D7D04AD61B2C710A0A0 /* BatchInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchInfo.h; path = EyesXCUI/EyesXCUI.framework/Headers/BatchInfo.h; sourceTree = "<group>"; };
+		8EB316CCF63A286722079270A856BA9A /* Target.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target.h; path = EyesXCUI/EyesXCUI.framework/Headers/Target.h; sourceTree = "<group>"; };
+		8F3652B3D5A5800CD0B3477B46E1FB40 /* Pods-TAU-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TAU-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F3C7F03FF56416A1D9FA326C0FE44F2 /* Pods-TAU-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TAU-dummy.m"; sourceTree = "<group>"; };
+		96742D5632911B5D61990CCF35115313 /* EyesScreenshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EyesScreenshot.h; path = EyesXCUI/EyesXCUI.framework/Headers/EyesScreenshot.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F7163CF0D03EDBAF6B2A5372505635B /* CheckSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CheckSettings.h; path = EyesXCUI/EyesXCUI.framework/Headers/CheckSettings.h; sourceTree = "<group>"; };
+		A1E69B33FA643AFA525F4E0B1CED9E0A /* EyesBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EyesBase.h; path = EyesXCUI/EyesXCUI.framework/Headers/EyesBase.h; sourceTree = "<group>"; };
+		A1F7449732F2D626F2689589CC5365DA /* SessionType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SessionType.h; path = EyesXCUI/EyesXCUI.framework/Headers/SessionType.h; sourceTree = "<group>"; };
+		ABC0E1E033764BE9E4228BE8893C5BD4 /* Pods-TAU-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TAU-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3E38FD95C2ED99FA3F50277D3E4E278 /* CheckSettingsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CheckSettingsProtocol.h; path = EyesXCUI/EyesXCUI.framework/Headers/CheckSettingsProtocol.h; sourceTree = "<group>"; };
+		BC262AD443F4CCAC2A1847AED30E877C /* FloatingMatchSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatingMatchSettings.h; path = EyesXCUI/EyesXCUI.framework/Headers/FloatingMatchSettings.h; sourceTree = "<group>"; };
+		C4E0E29CD7121BA2E9BA86894B4756F3 /* EyesXCUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EyesXCUI.h; path = EyesXCUI/EyesXCUI.framework/Headers/EyesXCUI.h; sourceTree = "<group>"; };
+		C61C38F6206CB5C81AA6AECEC14C56C1 /* AccessibilityLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AccessibilityLevel.h; path = EyesXCUI/EyesXCUI.framework/Headers/AccessibilityLevel.h; sourceTree = "<group>"; };
+		C8624E276F28C8F82509CEFF1648EDED /* AccessibilityRegionByRectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AccessibilityRegionByRectangle.h; path = EyesXCUI/EyesXCUI.framework/Headers/AccessibilityRegionByRectangle.h; sourceTree = "<group>"; };
+		C959C2881DD93143D963FC25777BD863 /* RegionProviderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RegionProviderProtocol.h; path = EyesXCUI/EyesXCUI.framework/Headers/RegionProviderProtocol.h; sourceTree = "<group>"; };
+		CD827952EE1A70C80A7A74EC194196DE /* ConfigurationBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConfigurationBase.h; path = EyesXCUI/EyesXCUI.framework/Headers/ConfigurationBase.h; sourceTree = "<group>"; };
+		CFE4F7B5A8BE1868ACEAB919A7798C91 /* Pods-TAU-TAUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAU-TAUUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D23873804F3054EE27D9E1E74DAAFE66 /* StepInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StepInfo.h; path = EyesXCUI/EyesXCUI.framework/Headers/StepInfo.h; sourceTree = "<group>"; };
+		D344ADA7493DDE7001903E6B1DEF8469 /* Pods-TAU-TAUUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TAU-TAUUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB7822E6F3F21A5A2F20807302A793D9 /* Region.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Region.h; path = EyesXCUI/EyesXCUI.framework/Headers/Region.h; sourceTree = "<group>"; };
+		DCB2A5568B4CDC1B16FED6E4097B4300 /* EyesXCUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EyesXCUI.xcconfig; sourceTree = "<group>"; };
+		E29B874F8B2625C632B1828CB2A39B90 /* XCUICheckSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUICheckSettings.h; path = EyesXCUI/EyesXCUI.framework/Headers/XCUICheckSettings.h; sourceTree = "<group>"; };
+		E88862E7C78DD094D0F8619A02744CED /* libPods-TAU.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TAU.a"; path = "libPods-TAU.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1E790150725378743C08AA987F0F0A /* AppUrls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppUrls.h; path = EyesXCUI/EyesXCUI.framework/Headers/AppUrls.h; sourceTree = "<group>"; };
+		FF4485E4BFADE7BC7C996C2AB3994A55 /* libPods-TAU-TAUUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TAU-TAUUITests.a"; path = "libPods-TAU-TAUUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB73C6A08ED1E027E66B8D45B4C988E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EDF5D2AB76942E0F5D9293B6C0D3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081DE2183B6B284DF29F9F93FFD04CD8 /* Pods-TAU-TAUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D344ADA7493DDE7001903E6B1DEF8469 /* Pods-TAU-TAUUITests-acknowledgements.markdown */,
+				29844A128CAA6382251FA251C2970B86 /* Pods-TAU-TAUUITests-acknowledgements.plist */,
+				733E2AF75E0BBC80C314DE8C37E8ED84 /* Pods-TAU-TAUUITests-dummy.m */,
+				3EA0F9D5F03858C7429AF27A236F2CFE /* Pods-TAU-TAUUITests-frameworks.sh */,
+				CFE4F7B5A8BE1868ACEAB919A7798C91 /* Pods-TAU-TAUUITests.debug.xcconfig */,
+				66A6C653EE37304C445B3582AE7F793C /* Pods-TAU-TAUUITests.release.xcconfig */,
+			);
+			name = "Pods-TAU-TAUUITests";
+			path = "Target Support Files/Pods-TAU-TAUUITests";
+			sourceTree = "<group>";
+		};
+		1360F21C5926E036277C5D623FDB1166 /* Pods-TAU */ = {
+			isa = PBXGroup;
+			children = (
+				8F3652B3D5A5800CD0B3477B46E1FB40 /* Pods-TAU-acknowledgements.markdown */,
+				ABC0E1E033764BE9E4228BE8893C5BD4 /* Pods-TAU-acknowledgements.plist */,
+				8F3C7F03FF56416A1D9FA326C0FE44F2 /* Pods-TAU-dummy.m */,
+				1A61CFF210EF7010587B4E7A051F5D75 /* Pods-TAU.debug.xcconfig */,
+				1798CBE39AB71477F48CDEDBD76B577F /* Pods-TAU.release.xcconfig */,
+			);
+			name = "Pods-TAU";
+			path = "Target Support Files/Pods-TAU";
+			sourceTree = "<group>";
+		};
+		2859A9979CC8C61BB0BFB219943C6C25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E88862E7C78DD094D0F8619A02744CED /* libPods-TAU.a */,
+				FF4485E4BFADE7BC7C996C2AB3994A55 /* libPods-TAU-TAUUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A1844CB58EF168B7F7351F062091FF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E62CF14DEA51E2D624F9882609A21D8 /* EyesXCUI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E62CF14DEA51E2D624F9882609A21D8 /* EyesXCUI */ = {
+			isa = PBXGroup;
+			children = (
+				2FB2FF2C3178C13F64FA1C3D36DD7EEF /* AbstractProxySettings.h */,
+				C61C38F6206CB5C81AA6AECEC14C56C1 /* AccessibilityLevel.h */,
+				C8624E276F28C8F82509CEFF1648EDED /* AccessibilityRegionByRectangle.h */,
+				3A18B45F711D31BA939FC99B5CF17F56 /* AccessibilityRegionType.h */,
+				178581D60C4D610AF505867A92F8805F /* ApiUrls.h */,
+				ED1E790150725378743C08AA987F0F0A /* AppUrls.h */,
+				83A96C23B94B0D7D04AD61B2C710A0A0 /* BatchInfo.h */,
+				9F7163CF0D03EDBAF6B2A5372505635B /* CheckSettings.h */,
+				B3E38FD95C2ED99FA3F50277D3E4E278 /* CheckSettingsProtocol.h */,
+				06F61271468EBD868FB23B3100C03477 /* Configuration.h */,
+				CD827952EE1A70C80A7A74EC194196DE /* ConfigurationBase.h */,
+				6AED779927E4066B284204D0DFF3F9AB /* DefaultMatchSettings.h */,
+				58FFB3DA94D62E1CD7260182C3177D2E /* Eyes.h */,
+				A1E69B33FA643AFA525F4E0B1CED9E0A /* EyesBase.h */,
+				058D73F5839EFBEE46D9E0A16C4FD134 /* EyesRunner.h */,
+				96742D5632911B5D61990CCF35115313 /* EyesScreenshot.h */,
+				C4E0E29CD7121BA2E9BA86894B4756F3 /* EyesXCUI.h */,
+				BC262AD443F4CCAC2A1847AED30E877C /* FloatingMatchSettings.h */,
+				67C005C2EC46BD0D91EDF664CEBD4A1B /* ImageMatchSettings.h */,
+				195D42F713841AC671982A63D8785529 /* MatchLevel.h */,
+				6130CC04ADFC234B1274530AB91C9F62 /* MatchResult.h */,
+				DB7822E6F3F21A5A2F20807302A793D9 /* Region.h */,
+				C959C2881DD93143D963FC25777BD863 /* RegionProviderProtocol.h */,
+				A1F7449732F2D626F2689589CC5365DA /* SessionType.h */,
+				5D4903DB5690D24F048572605C385628 /* SessionUrls.h */,
+				D23873804F3054EE27D9E1E74DAAFE66 /* StepInfo.h */,
+				8EB316CCF63A286722079270A856BA9A /* Target.h */,
+				0FA43E5549F43DFB2536D71FC12EEE16 /* TestAccessibilityStatus.h */,
+				0B2FEE5D597287821E271FF669898CAF /* TestResults.h */,
+				5B04C68E810342B8344EB64B6A6DD007 /* TestResultsSummary.h */,
+				E29B874F8B2625C632B1828CB2A39B90 /* XCUICheckSettings.h */,
+				B9017F0C9E69035A3F1F5E3FD6C5BC76 /* Frameworks */,
+				FA9EB1938D4F647C1FB026364C5E988A /* Support Files */,
+			);
+			name = EyesXCUI;
+			path = EyesXCUI;
+			sourceTree = "<group>";
+		};
+		B9017F0C9E69035A3F1F5E3FD6C5BC76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				102DDDB900F5B7DBB986ED5B802DDEDF /* EyesXCUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				3A1844CB58EF168B7F7351F062091FF0 /* Pods */,
+				2859A9979CC8C61BB0BFB219943C6C25 /* Products */,
+				EA03F722D5D4B80D9ACC8987D50F607C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA03F722D5D4B80D9ACC8987D50F607C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1360F21C5926E036277C5D623FDB1166 /* Pods-TAU */,
+				081DE2183B6B284DF29F9F93FFD04CD8 /* Pods-TAU-TAUUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FA9EB1938D4F647C1FB026364C5E988A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCB2A5568B4CDC1B16FED6E4097B4300 /* EyesXCUI.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EyesXCUI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07538E09C28889B75A802C6C017304E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F7A9E32D128F0806160AA222405D3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1520456D971C0FEC226F2CBB497FE643 /* Pods-TAU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6779ADAE04C5B7CB621DF0515F3092E /* Build configuration list for PBXNativeTarget "Pods-TAU" */;
+			buildPhases = (
+				56F7A9E32D128F0806160AA222405D3E /* Headers */,
+				332B4788EB2302B6B69F132C7547DE2E /* Sources */,
+				3DB73C6A08ED1E027E66B8D45B4C988E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TAU";
+			productName = "Pods-TAU";
+			productReference = E88862E7C78DD094D0F8619A02744CED /* libPods-TAU.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6FF3B1EED786B4BC4B61BD5579A96194 /* Pods-TAU-TAUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8539CB599A4A21D7A2D2C018F6F71CC9 /* Build configuration list for PBXNativeTarget "Pods-TAU-TAUUITests" */;
+			buildPhases = (
+				07538E09C28889B75A802C6C017304E2 /* Headers */,
+				BE078A61A0AC22A2E6444BE2E9483923 /* Sources */,
+				97EDF5D2AB76942E0F5D9293B6C0D3C3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DB8B90EA08FAEED6FCF8A3450CFCC2E /* PBXTargetDependency */,
+			);
+			name = "Pods-TAU-TAUUITests";
+			productName = "Pods-TAU-TAUUITests";
+			productReference = FF4485E4BFADE7BC7C996C2AB3994A55 /* libPods-TAU-TAUUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2859A9979CC8C61BB0BFB219943C6C25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7EB7769BF4A342EB71839C84C3B9C9 /* EyesXCUI */,
+				1520456D971C0FEC226F2CBB497FE643 /* Pods-TAU */,
+				6FF3B1EED786B4BC4B61BD5579A96194 /* Pods-TAU-TAUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		332B4788EB2302B6B69F132C7547DE2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC25ABC44F5EA81E1C7F949098663EF /* Pods-TAU-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE078A61A0AC22A2E6444BE2E9483923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E290E894473D81578C93A39E46CE9879 /* Pods-TAU-TAUUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DB8B90EA08FAEED6FCF8A3450CFCC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EyesXCUI;
+			target = FE7EB7769BF4A342EB71839C84C3B9C9 /* EyesXCUI */;
+			targetProxy = 55D7004C148CBEF55648EAC999EA10A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		56461B2A959F1CA97676BFB17F8BC649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A6C653EE37304C445B3582AE7F793C /* Pods-TAU-TAUUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61BF825F398080640E406731EA45E309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A61CFF210EF7010587B4E7A051F5D75 /* Pods-TAU.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64BE2935DCBEBD8938E628107ABA6114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB2A5568B4CDC1B16FED6E4097B4300 /* EyesXCUI.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C8F0331E50843983FECC6E99753D9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE4F7B5A8BE1868ACEAB919A7798C91 /* Pods-TAU-TAUUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3462630324105516D808F8211BD8643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1798CBE39AB71477F48CDEDBD76B577F /* Pods-TAU.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC0B89B5A06615AB90F56B2386B59C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB2A5568B4CDC1B16FED6E4097B4300 /* EyesXCUI.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8539CB599A4A21D7A2D2C018F6F71CC9 /* Build configuration list for PBXNativeTarget "Pods-TAU-TAUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8F0331E50843983FECC6E99753D9AE /* Debug */,
+				56461B2A959F1CA97676BFB17F8BC649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34E384CFB11942C1A3C8EBB55A5689C /* Build configuration list for PBXAggregateTarget "EyesXCUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BE2935DCBEBD8938E628107ABA6114 /* Debug */,
+				EFC0B89B5A06615AB90F56B2386B59C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6779ADAE04C5B7CB621DF0515F3092E /* Build configuration list for PBXNativeTarget "Pods-TAU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61BF825F398080640E406731EA45E309 /* Debug */,
+				E3462630324105516D808F8211BD8643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

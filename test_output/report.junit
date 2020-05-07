@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='TAUUITests.xctest' tests='8' failures='2'>
+  <testsuite name='TAUTests.TAUTests' tests='2' failures='0'>
+    <testcase classname='TAUTests.TAUTests' name='testExample' time='0.001'/>
+    <testcase classname='TAUTests.TAUTests' name='testPerformanceExample' time='0.298'/>
+  </testsuite>
+  <testsuite name='TAUUITests.BDDTest' tests='1' failures='1'>
+    <testcase classname='TAUUITests.BDDTest' name='testThankYouMessageInBDDStyle'>
+      <failure message='XCTAssertTrue failed'>TAUSteps.swift:52</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name='TAUUITests.TAUUIEyesTest' tests='1' failures='0'>
+    <testcase classname='TAUUITests.TAUUIEyesTest' name='testTAUWithEyesXCUI' time='23.216'/>
+  </testsuite>
+  <testsuite name='TAUUITests.TAUUITests' tests='4' failures='1'>
+    <testcase classname='TAUUITests.TAUUITests' name='testAllElementsOnMainScreen' time='3.223'/>
+    <testcase classname='TAUUITests.TAUUITests' name='testEnrollACity'>
+      <failure message='XCTAssertTrue failed'>TAUUITests.swift:28</failure>
+    </testcase>
+    <testcase classname='TAUUITests.TAUUITests' name='testLaunchPerformance' time='19.702'/>
+    <testcase classname='TAUUITests.TAUUITests' name='testWelcomeMessage' time='5.536'/>
+  </testsuite>
+</testsuites>
